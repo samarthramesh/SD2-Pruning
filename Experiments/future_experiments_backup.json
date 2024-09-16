@@ -1,0 +1,1 @@
+{"72": {"text_prune_method": "magnitude", "image_prune_method": "magnitude", "text_sparsity": 0.55, "image_sparsity": 0.425}, "73": {"text_prune_method": "magnitude", "image_prune_method": "magnitude", "text_sparsity": 0.525, "image_sparsity": 0.4}, "74": {"text_prune_method": "magnitude", "image_prune_method": "magnitude", "text_sparsity": 0.5, "image_sparsity": 0.375}}
