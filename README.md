@@ -40,3 +40,5 @@ The arguments are to be used as follows:
 - `--metric_images`: Number of images to be generated for evaluation metrics.
 - `--save_metric_data_path`: Path to which images generated for metric are saved.
 - `--mscoco_path`: Path to saved MSCOCO directory with train2017 images and annotation directory.
+
+FID and CLIP Score are saved in experiments.json
