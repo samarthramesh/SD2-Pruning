@@ -171,7 +171,7 @@ def main():
 
         model_conf = f"{text_prune_method}-{text_sparsity}__{image_prune_method}-{image_sparsity}"
 
-    if args.evaluate:
+    if bool(args.evaluate):
 
         setup_dataset(args.mscoco_path, args.mscoco_seed)
 
