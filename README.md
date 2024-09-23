@@ -5,7 +5,7 @@ Also has evaluation functionality to provide FID and CLIPScore metrics.
 
 # Usage
 
-Install all packages mentioned in requirements.txt
+Install all packages mentioned in requirements.txt.
 
 Download train images and annotations for the 2017 MSCOCO training dataset from https://cocodataset.org/#download
 
@@ -41,4 +41,4 @@ The arguments are to be used as follows:
 - `--save_metric_data_path`: Path to which images generated for metric are saved.
 - `--mscoco_path`: Path to saved MSCOCO directory with train2017 images and annotation directory.
 
-FID and CLIP Score are saved in experiments.json
+FID and CLIP Score are saved in experiments.json.
