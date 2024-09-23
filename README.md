@@ -1,6 +1,8 @@
 # SD2-Pruning
-Pruning Implementation for Stable Diffusion 2
+Pruning Implementation for Stable Diffusion 2.
+
 Used to prune Stable Diffusion to required sparsities.
+
 Also has evaluation functionality to provide FID and CLIPScore metrics.
 
 # Usage
