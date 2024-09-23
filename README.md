@@ -6,7 +6,9 @@ Also has evaluation functionality to provide FID and CLIPScore metrics.
 # Usage
 
 Install all packages mentioned in requirements.txt
+
 Download train images and annotations for the 2017 MSCOCO training dataset from https://cocodataset.org/#download
+
 Extract the zip files for images and annotations and place them in one folder.
 
 Below is an example for pruning Stable Diffusion 2 to 50% and getting the FID and CLIP Score.
