@@ -129,7 +129,7 @@ def extract_fid_from_text(path, exp_id):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='sd-2', help='Model path of unpruned model. If not present will download and save at this path.')
-    parser.add_argument('--save_model_path', type=str, default='sd-2', help='Path to save pruned model.')
+    parser.add_argument('--save_model_path', type=str, default='sd-2-pruned', help='Path to save pruned model.')
     parser.add_argument('--seed', type=int, default=0, help='Seed for selecting the MSCOCO data for evaluation')
     parser.add_argument('--text_pruning_method', type=str, default='magnitude', help="Pruning algorithm to be applied for text portion of model.")
     parser.add_argument('--image_pruning_method', type=str, default='magnitude', help="Pruning algorithm to be applied for image portion of model.")
